@@ -2,6 +2,9 @@ import serveAbout from "./tabs/about.js";
 import serveMenu from "./tabs/menu.js";
 import serveHome from "./tabs/home.js";
 import "./styles.css";
+import "./tabs/about.css";
+import "./tabs/home.css";
+import "./tabs/menu.css";
 import logoImg from "./resources/logo.svg";
 
 // Default tab - Disabled for now
