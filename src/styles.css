@@ -1,4 +1,4 @@
-/* Only for the main content, including header and body but not its rendered contents */
+/* Only for shared content, including header and body but not styles specific to rendered contents */
 
 * {
     box-sizing: border-box;
@@ -85,4 +85,9 @@ body {
     padding-left: 100px;
     padding-right: 100px;
     background-color: white;
+}
+
+.header {
+    font-size: 3rem;
+    text-transform: uppercase;
 }
