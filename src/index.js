@@ -1,9 +1,11 @@
 import serveAbout from "./tabs/about.js";
 import serveMenu from "./tabs/menu.js";
 import serveHome from "./tabs/home.js";
+import "./styles.css";
+import logoImg from "./resources/logo.svg";
 
-// Default tab
-serveHome();
+// Default tab - Disabled for now
+// serveHome();
 
 function serveTab(id) {
     clearBody();
@@ -34,3 +36,6 @@ for (const navButton of navButtons) {
         serveTab(e.target.id);
     });
 }
+
+const logoImage = document.querySelector("#logoIcon");
+logoImage.src = logoImg;
