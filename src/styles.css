@@ -7,6 +7,7 @@
 :root {
     --header-height: 80px;
     font-size: 16px;
+    --page-padding-leftright: 50px;
 }
 
 header {
@@ -17,8 +18,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: var(--page-padding-leftright);
+    padding-right: var(--page-padding-leftright);
     height: var(--header-height);
     border: 1px solid white;
     border-bottom: 1px solid black;
@@ -90,4 +91,5 @@ body {
 .header {
     font-size: 3rem;
     text-transform: uppercase;
+    text-align: center;
 }

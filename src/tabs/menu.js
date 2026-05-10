@@ -3,7 +3,10 @@ const Menu = (function() {
     let menuList = [
     {"Title": "Burger1",
     "Description": "Description1",
-    "Price": "Price1"}
+    "Price": "$15.99"},
+    {"Title": "Burger2",
+    "Description": "Description2",
+    "Price": "$15.99"}
     ]
 
     const GetMenu = () => {
@@ -24,9 +27,12 @@ function serveMenu() {
 function createMenuItems(contentDiv) {
     for (const menuItem of Menu.GetMenu()) {
         contentDiv.innerHTML += `
-        <div class="itemTitle">${menuItem.Title}</div>
-        <div class="itemDescription">${menuItem.Description}</div>
-        <div class="itemPrice">${menuItem.Price}</div>`
+        <div class="itemDiv">
+            <div class="itemTitle">${menuItem.Title}</div>
+            <div class="itemDescription">${menuItem.Description}</div>
+            <div class="itemPrice">${menuItem.Price}</div>
+        </div>
+        <hr>`
     }
 }
 
