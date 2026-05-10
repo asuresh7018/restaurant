@@ -1,5 +1,6 @@
 function serveMenu() {
-    console.log("Served menu");
+    const contentDiv = document.querySelector("#content");
+    contentDiv.innerHTML = "Menu Page";
 }
 
 export default serveMenu;

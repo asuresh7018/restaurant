@@ -1,5 +1,6 @@
 function serveAbout() {
-    console.log("Served about page");
+    const contentDiv = document.querySelector("#content");
+    contentDiv.innerHTML = "About Page";
 }
 
 export default serveAbout;

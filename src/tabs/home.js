@@ -1,5 +1,6 @@
 function serveHome() {
-    console.log("Served homepage");
+    const contentDiv = document.querySelector("#content");
+    contentDiv.innerHTML = "Home Page";
 }
 
 export default serveHome;
