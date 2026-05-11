@@ -7,8 +7,8 @@ import "./tabs/home.css";
 import "./tabs/menu.css";
 import logoImg from "./resources/logo.svg";
 
-// Default tab - Disabled for now
-// serveHome();
+// Default tab
+serveHome();
 
 function serveTab(id) {
     clearBody();

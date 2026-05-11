@@ -101,7 +101,10 @@ body {
 }
 
 footer {
-    height: var(--header-height);
+    height: 30px;
     width: 100%;
-    background-color: rgb(230,20,20);
+    background-color: rgb(20,150,100);
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
 }

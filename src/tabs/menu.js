@@ -23,8 +23,8 @@ const Menu = (function() {
         "Price": "$0.99"}];
 
     let drinks = [
-        {"Title": "Soda",
-        "Description": "300ml soda of your choice (Coca Cola, Sprite, Fanta)",
+        {"Title": "Soft drink",
+        "Description": "300ml soft drink of your choice (Coca Cola, Sprite, Fanta)",
         "Price": "$4.99"}];
 
     const GetMenu = () => {
