@@ -28,6 +28,10 @@ function serveTab(id) {
     }
 }
 
+function addSectionBreak (contentDiv) {
+    contentDiv.innerHTML += `<div class="sectionBreak"></div>`
+}
+
 function clearBody() {
     const contentDiv = document.querySelector("#content");
     contentDiv.innerHTML = "";
@@ -42,3 +46,5 @@ for (const navButton of navButtons) {
 
 const logoImage = document.querySelector("#logoIcon");
 logoImage.src = logoImg;
+
+export { addSectionBreak };

@@ -22,7 +22,7 @@ nav {
     padding-right: var(--page-padding-leftright);
     height: var(--header-height);
     border: 1px solid white;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(200,200,200);
 }
 
 .logo {
@@ -88,8 +88,20 @@ body {
     background-color: white;
 }
 
+/* Stuff in the content div */
+
 .header {
     font-size: 3rem;
     text-transform: uppercase;
     text-align: center;
+}
+
+.sectionBreak {
+    height: 50px;
+}
+
+footer {
+    height: var(--header-height);
+    width: 100%;
+    background-color: rgb(230,20,20);
 }
